@@ -29,7 +29,7 @@ builder.Services.AddAuthentication().AddFacebook(option => {
 });
 builder.Services.AddAuthentication().AddMicrosoftAccount(option => {
     option.ClientId = "ec4d380d-d631-465d-b473-1e26ee706331";
-    option.ClientSecret = "qMW8Q~LlEEZST~SDxDgcEVx_45LJQF2cQ_rEKcSQ";
+    option.ClientSecret = "#";
 });
 
 builder.Services.AddDistributedMemoryCache();
